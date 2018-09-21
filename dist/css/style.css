@@ -130,7 +130,15 @@ body{
 		height: auto;
  	 }
  
-  }
+	}
+	.dark{
+		background: #333;
+		color: #f4f4f4;
+	}
+	.light{
+		background:#f4f4f4;
+		color: #333;
+	}
   .unique{
 	  background-image: url("../images/speaker.jpg");
 	  background-repeat: no-repeat;
@@ -139,6 +147,19 @@ body{
 	}
 	.card{
 		border: none;
+	}
+	.commitee ol li{
+		font-size: 1.5em;
+		text-align: left;
+		margin-left: 20%;
+
+	}
+	.date{
+		font-size: 1.5em;
+		
+	}
+	.card-title{
+		font-weight: bold;
 	}
 
 
